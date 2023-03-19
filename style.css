@@ -26,6 +26,8 @@ html{
 body{
     background: var(--bg-color-prymari);
 }
+
+
 .header{
     top: 0;
     left: 0;
@@ -66,4 +68,50 @@ body{
     font-size: 3rem;
     color: var(--bg-text-sec);
     display: none;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.home-conteiner h3{
+    font-size: 3.0rem;
+    font-weight: 700;
+}
+
+.home img{
+    width: 40vw;
+    border-radius: 67% 33% 51% 49% / 49% 43% 57% 51%  ;
+}
+
+.home-conteiner h1{
+    font-size: 5.0rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.home-conteiner p {
+    font-size: 1.4rem;
+}
+
+.media a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 4px solid var(--color-main);
+    background: transparent;
+    border-radius: 50%;
+    font-size: 1.9rem;
+    color: var(--color-main);
+    margin: 2.9rem 1.4rem 2.9rem 0;
 }
