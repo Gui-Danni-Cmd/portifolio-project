@@ -61,3 +61,9 @@ body{
 .bar a.acap{
     color: var(--color-main);
 }
+
+#menu{
+    font-size: 3rem;
+    color: var(--bg-text-sec);
+    display: none;
+}
